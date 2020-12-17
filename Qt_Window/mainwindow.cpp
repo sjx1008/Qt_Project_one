@@ -20,7 +20,7 @@ MainWindow::MainWindow(QWidget *parent):QMainWindow(parent)
     setMenuBar(bar);
 
     //创建菜单
-    QMenu * fileMenu = bar->addMenu("文件");
+    QMenu * fileMenu = bar->addMenu("文件");//接收返回值
     QMenu * editMenu = bar->addMenu("编辑");
 
     //创建菜单项
@@ -48,9 +48,8 @@ MainWindow::MainWindow(QWidget *parent):QMainWindow(parent)
     toolBar->addSeparator();
     toolBar->addAction(openAction);
     //工具栏中添加控件
-    QPushButton * btn = new QPushButton("aa" , this);
+    QPushButton * btn = new QPushButton("退出" , this);
     toolBar->addWidget(btn);
-
 
     //状态栏 最多有一个
     QStatusBar * stBar = statusBar();
