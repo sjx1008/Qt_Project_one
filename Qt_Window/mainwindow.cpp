@@ -29,9 +29,12 @@ MainWindow::MainWindow(QWidget *parent):QMainWindow(parent)
     fileMenu->addSeparator();
     QAction * openAction = fileMenu->addAction("打开");
 
+<<<<<<< HEAD
     newAction->setIcon(QIcon(":/Image/Luffy.png"));//添加图片
     openAction->setIcon(QIcon(":/Image/LuffyQ.png"));//添加图片
 
+=======
+>>>>>>> 4d8242dff05504acb7e5adff63d56928cfca3b47
     //工具栏  可以有多个
     QToolBar * toolBar = new QToolBar(this);
     addToolBar(Qt::LeftToolBarArea,toolBar);

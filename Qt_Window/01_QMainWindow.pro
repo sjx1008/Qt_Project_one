@@ -16,9 +16,12 @@ SOURCES += main.cpp\
         mainwindow.cpp
 
 HEADERS  += mainwindow.h
+<<<<<<< HEAD
 
 FORMS += \
     form.ui
 
 RESOURCES += \
     res.qrc
+=======
+>>>>>>> 4d8242dff05504acb7e5adff63d56928cfca3b47
